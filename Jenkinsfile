@@ -12,7 +12,7 @@ pipeline {
             sh './gradlew build'
         }
         stage('Test') {
-            stops {
+            steps {
                 echo 'Testing JUnit'
                 sh './gradlew test'
             }
