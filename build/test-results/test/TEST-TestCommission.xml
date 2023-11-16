@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCommission" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-16T15:54:14" hostname="GARRETT" time="0.723">
+  <properties/>
+  <testcase name="testGetCommissionSkipWhileLoop" classname="TestCommission" time="0.684"/>
+  <testcase name="testGetCommissionEnterWhileLoop" classname="TestCommission" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 16, 2023 10:54:15 AM CalculateCommission getCommission
+INFO: Total sales: 0.0
+Nov 16, 2023 10:54:15 AM CalculateCommission getCommission
+INFO: Commission is: $0.0
+Nov 16, 2023 10:54:15 AM CalculateCommission getCommission
+INFO: Total sales: 2500.0
+Nov 16, 2023 10:54:15 AM CalculateCommission getCommission
+INFO: Commission is: $520.0
+]]></system-err>
+</testsuite>
