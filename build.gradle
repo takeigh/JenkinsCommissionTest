@@ -18,3 +18,16 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:5.2.0'
     testImplementation 'org.mockito:mockito-inline:5.2.0'
 }
+
+test {
+    useJUnit();
+    outputs.upToDateWhen {false}
+    testLogging {
+        showStandarStreams = true;
+        reports {
+            junitXml.setEnabled(true)
+            junitXml.outputPerTestCase(true)
+            junitXml.destination(file("build/test-results/test"))
+        }
+    }
+}
